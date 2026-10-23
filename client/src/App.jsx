@@ -1,8 +1,11 @@
 import React from 'react'
+import { Toaster } from 'react-hot-toast'
 
 const Hello = () => {
   return (
-    <div>Hello</div>
+    <>
+    <Toaster/>
+    </>
   )
 }
 
