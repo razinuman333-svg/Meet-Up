@@ -55,7 +55,7 @@ const Dashboard = () => {
       setCurrentTime(new Date())
     },1000)
 
-    return clearInterval(timer)
+    return () => clearInterval(timer)
   },[])
 
 
